@@ -10,9 +10,122 @@
     --font0: Arial, cursive, sans-serif;
     --font1: 'Poppins', cursive;
     --font2: 'Roboto', sans-serif;
+
+    --color0: rgb(27, 38, 48);
+    --color1: #2534F7;
+    --color2: #4421D9;
+    --color3: #892FF0;
+    --color4: #A921D9;
+    --color5: #F725F5;
 }
 
 * {
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
+}
+
+html {
+    width: 100%;
+    height: 100vh;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: row wrap;
+    background-image: linear-gradient(to right, var(--color1), var(--color3));
+    color: white;
+    height: 100px;
+    padding: 0px 10px;
+}
+
+nav > ul li {
+    display: inline-block;
+    font-family: var(--font2);
+    padding: 0px 10px;
+}
+
+nav>  ul li a:hover {
+    background-color: white;
+    color: var(--color4);
+    font-weight: 700;
+    padding: 0px 10px;
+    border-radius: 5px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.404);
+    transition-duration: 0.4s;
+}
+
+nav > ul li > span > .destaque {
+    background-color: var(--color5);
+    color: white;
+    font-weight: bold;
+    padding: 5px 40px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.404);
+}
+
+nav > ul li > span > .destaque:hover {
+    text-decoration: underline;
+    background-color: var(--color2);
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.interface {
+    display: flex;
+    align-items: center;
+    background-color: var(--color0);
+    height: 500px;
+}
+
+.interface > .texto {
+    color: white;
+    font-family: var(--font1);
+    font-size: 2em;
+    margin-left: 150px;
+    line-height: 35px;
+}
+
+.texto p {
+    font-size: 0.6em;
+}
+
+.texto .destaque {
+    background-color: #A921D9;
+    font-style: italic;
+    padding: 0px 8px;
+    border-radius: 5px;
+}
+
+.servicos {
+    text-align: center;
+    background-color: var(--color0);
+    
+    margin-top: 1px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+.servicos > .container > .plano {
+    background-color: white;
+    height: 500px;
+    width: 300px;
+    margin: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.541);
+}
+
+.plano .megas {
+    color: black;
+    font-size: 2.3em;
 }
