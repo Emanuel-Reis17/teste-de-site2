@@ -13,11 +13,11 @@
 
     --color00: rgb(22, 30, 37);
     --color0: rgb(27, 38, 48);
-    --color1: #2534F7;
+    --color1: #121a91;
     --color2: #4421D9;
     --color3: #892FF0;
     --color4: #A921D9;
-    --color5: #F725F5;
+    --color5: #be35da;
 }
 
 * {
@@ -135,12 +135,12 @@ a {
     overflow: hidden;
 }
 
-.plano .fiber {
+ .fiber {
     font-family: var(--font1);
     font-weight: 700;
 }
 
-.plano .megas {
+ .megas {
     background-color: var(--color3);
     font-family: var(--font1);
     font-size: 60px;
@@ -150,7 +150,7 @@ a {
     border-radius: 5px;
 }
 
-.plano .preco {
+ .preco {
     font-size: 1.3em;
     font-weight: 800;
 }
@@ -160,7 +160,7 @@ a {
     font-size: 0.7em;
 }
 
-.plano .comprar {
+ .comprar {
     text-align: center;
     background-color: var(--color3);
     font-weight: 600;
@@ -172,21 +172,96 @@ a {
     cursor: pointer;
 }
 
-.plano .comprar:hover {
+ .comprar:hover {
     background-color: #9649ee;
     box-shadow: 0px 0px 3px rgba(190, 190, 190, 0.384);
     transition-duration: 0.5s;
 }
 
-.plano .beneficios {
+ .beneficios {
     margin-top: 20px;
 }
 
-.plano .beneficios p {
+ .beneficios p {
     margin: 10px 0px;
 }
 
 .beneficios p span {
     color: var(--color4);
     font-size: 20px;
+}
+
+.planodest {
+    text-align: left;
+    background-color: var(--color3);
+    color: white;
+    /* height: 500px; */
+    font-family: var(--font2);
+    width: 300px;
+    margin: 30px;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.541);
+    overflow: hidden;
+}
+
+.planodest.fiber {
+    font-family: var(--font1);
+    font-weight: 700;
+}
+
+.planodest .megas {
+    background-color: var(--color0);
+    color: white;
+    font-family: var(--font1);
+    font-size: 60px;
+    width: 250px;
+    margin: 10px 0px;
+    padding: 1px 0px;
+    border-radius: 5px;
+}
+
+.planodest .preco {
+    font-size: 1.3em;
+    font-weight: 800;
+}
+
+.planodest .preco .vias {
+    color: var(--color0);
+    font-size: 0.7em;
+}
+
+.planodest .comprar {
+    text-align: center;
+    background-color: var(--color0);
+    font-weight: 600;
+    width: 150px;
+    margin: 10px auto;
+    padding: 5px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.384);
+    cursor: pointer;
+}
+
+.planodest .comprar:hover {
+    background-color: #6a15cc;
+    box-shadow: 0px 0px 3px rgba(190, 190, 190, 0.384);
+    transition-duration: 0.5s;
+}
+
+.planodest .beneficios {
+    margin-top: 20px;
+}
+
+.planodest .beneficios p {
+    background-color: var(--color0);
+    font-weight: 700;
+    margin: 10px 0px;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.planodest .beneficios p span {
+    font-size: 20px;
+    font-weight: 700;
 }
