@@ -6,12 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="style/main.css">
+    <link rel="stylesheet" href="style/responsive.css">
     <title>Inicial</title>
 </head>
 <body>
     <header>
         <!--Logo do provedor-->
-        <img src="" alt="Logo da empresa">
+        <img id="logo" src="" alt="Logo da empresa">
+        <span id="menu" class="material-symbols-outlined" onclick="menu()">menu</span>
         <nav>
             <ul>
                 <li><a href="#">Internet</a></li>
@@ -23,7 +25,6 @@
             </ul>
         </nav>
     </header>
-    <main>
         <section class="interface">
             <div class="texto">
                 <h1>Planos de Internet</h1>
@@ -103,9 +104,10 @@
                     </div>
                 </div>
                 <div class="plano">
-                    <p class="sobre">x</p>
-                    <p class="sobre">x</p>
-                    <p class="sobre">x</p>
+                    <p class="fiber">O que é FIBRA ÓPTICA?</p>
+                    <p class="sobre">A internet fibra óptica é uma tecnologia capaz de transmitir um <span class="destaque">volume grande de dados</span> através de cabos preenchidos com fibras finas de plástico ou vidro. Por eles, a conexão utiliza feixes pulsantes de luz que permitem um sinal mais estável e com <span class="destaque">menor interferência.</span></p>
+                    <p class="sobre">Nas telecomunicações a fibra óptica é utilizada para transmitir sinais por meio de <span class="destaque">pulsos eletromagnéticos</span>, ou seja, luz, radiação infravermelha ou qualquer outro tipo de radiação eletromagnética.</p>
+                    <p class="sobre">O sinal da fibra óptica percorre à <span class="destaque">velocidade da luz</span> e não tem interferência eletromagnética e de intempéries climáticas. Além disso, os cabos de fibra asseguram uma menor latência, ou seja, há menos atraso no compartilhamento de dados, contribuindo com a velocidade de transmissão.</p>
                 </div>
             </div>
         </section>
@@ -126,17 +128,20 @@
         </section>
     </main>
     <footer>
-        <img src="" alt="Logo da empresa">
-        <!--Logo da empresa-->
-        <ul>
-            <li>Internet</li>
-            <li>Intranet</li>
-            <li>Planos</li>
-            <li>Contato</li>
-            <li>Suporte</li>
-            <li>Sobre nós</li>
-        </ul>
-        <p class="direitos">&copy;</p>
+        <div class="informacoes">
+            <img src="" alt="Logo da empresa">
+            <!--Logo da empresa-->
+            <ul>
+                <li>Internet</li>
+                <li>Intranet</li>
+                <li>Planos</li>
+                <li>Contato</li>
+                <li>Suporte</li>
+                <li>Sobre nós</li>
+            </ul>
+        </div>
+        <p class="direitos">&copy; Todos os direitos reservados por <a href="https://www.instagram.com/_reissdesign" target="_blank">Emanuel Reis</a></p>
     </footer>
+    <script src="script/main.js"></script>
 </body>
 </html>
