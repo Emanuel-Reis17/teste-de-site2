@@ -11,3 +11,7 @@ function menu() {
         menu.style.display = 'block'
     }
 }
+
+function compra(){
+    alert('~[ALERTA] Compra Indisponível no momento, tente novamente  mais tarde.')
+}
