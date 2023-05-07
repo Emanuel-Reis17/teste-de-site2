@@ -84,7 +84,10 @@ a {
 .interface {
     display: flex;
     align-items: center;
-    background-color: var(--color0);
+    background-image: url('../images/plano4.png');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 500px;
 }
 
