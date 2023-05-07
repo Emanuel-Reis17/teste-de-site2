@@ -3,6 +3,7 @@
 @media screen and (max-width: 650px) {
 
     header {
+        height: auto;
         padding: 0px;
     }
 
@@ -19,7 +20,20 @@
         padding: 10px;
     }
 
+    .interface {
+        height: 300px;
+    }
+
     .interface > .texto {
+        font-size: 1.6em;
         margin: auto;
+    }
+
+    .informacoes img {
+        width: 200px;
+    }
+
+    .informacoes ul li {
+        font-size: 0.9em;
     }
 }
