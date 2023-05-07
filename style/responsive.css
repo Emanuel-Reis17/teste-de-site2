@@ -2,24 +2,7 @@
 
 @media screen and (max-width: 650px) {
 
-    header {
-        height: auto;
-        padding: 0px;
-    }
-
-    header > span#menu {
-        display: block;
-        cursor: pointer;
-    }
-    
-    nav > ul li {
-        text-align: center;
-        display: none;
-        background-color: black;
-        width: 100%;
-        padding: 10px;
-    }
-
+   
     .interface {
         height: 300px;
     }

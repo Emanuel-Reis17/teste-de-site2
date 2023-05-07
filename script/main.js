@@ -1,7 +1,7 @@
 function menu(){
-    let item = document.querySelector('span#menu')
-    if (window.innerWidth == '650px'){
-        item.style.display = 'none'
+    let opts = document.querySelector('#opts')
+    if (window.innerWidth <= '650px'){
+        opts.value.style.display = 'block'
     }
 }
 
