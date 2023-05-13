@@ -123,6 +123,27 @@
                 <p class="opcaot" onclick="chamada()">SpeedTest</p>
             </div>
         </section>
+        <section class="cadastro">
+            <h1>Fale conosco!</h1>
+            <form method="post" autocomplete="on">
+                <div class="infor">
+                    <label for="user">Nome do Usuário: </label>
+                    <input type="text" name="user" id="user" required autocomplete="username" placeholder="Seu nome">
+                </div>
+                <div class="infor">
+                    <label for="email">Email: </label>
+                    <input type="email" name="email" id="email" required autocomplete="email" placeholder="email@gmail.com">
+                </div>
+                <div class="infor">
+                    <label for="password">Senha: </label>
+                    <input type="password" name="password" id="password" required autocomplete="current-password" placeholder="Senha" min="8">
+                </div>
+                <div class="button">
+                    <input type="button" value="Cadastrar" onclick="validate()">
+                    <input type="reset" value="Limpar">
+                </div>
+            </form>
+        </section>
     </main>
     <footer>
         <div class="informacoes">
