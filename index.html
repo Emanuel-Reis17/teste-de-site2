@@ -125,7 +125,7 @@
         </section>
         <section class="cadastro">
             <h1>Fale conosco!</h1>
-            <form method="post" autocomplete="on">
+            <form method="get" autocomplete="on">
                 <div class="infor">
                     <label for="user">Nome do Usuário: </label>
                     <input type="text" name="user" id="user" required autocomplete="username" placeholder="Seu nome">
@@ -138,6 +138,7 @@
                     <label for="password">Senha: </label>
                     <input type="password" name="password" id="password" required autocomplete="current-password" placeholder="Senha" min="8">
                 </div>
+                <textarea name="comment" id="idcomment" cols="20" rows="10" placeholder="Deixe um comentário! (opcional)"></textarea>
                 <div class="button">
                     <input type="button" value="Cadastrar" onclick="validate()">
                     <input type="reset" value="Limpar">

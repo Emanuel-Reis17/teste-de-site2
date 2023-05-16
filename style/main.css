@@ -23,6 +23,7 @@
 * {
     margin: 0px;
     padding: 0px;
+    outline: none;
     box-sizing: border-box;
 }
 
@@ -269,6 +270,50 @@ a {
     border-radius: 5px;
     box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.438);
     transition-duration: 0.5s;
+}
+
+.cadastro {
+    background-color: var(--color00);
+    color: white;
+    font-family: var(--font1);
+    text-align: center;
+    padding: 10px;
+}
+
+.cadastro form {
+    text-align: left;
+}
+
+form .infor {
+    margin-bottom: 10px;
+}
+
+form .infor label, input {
+    display: block;
+}
+
+.infor input {
+    background-color: var(--color0);
+    color: white;
+    width: 300px;
+    height: 30px;
+    border: none;
+    border-radius: 5px;
+    text-indent: 3px;
+    outline: none;
+}
+
+form textarea {
+    background-color: var(--color0);
+    color: white;
+    width: 300px;
+    padding: 2px;
+    border: none;
+    border-radius: 5px;
+}
+
+.button input {
+    display: inline-block;
 }
 
 footer .informacoes {
