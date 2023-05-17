@@ -1,8 +1,43 @@
 @charset "UTF-8";
 
-@media screen and (max-width: 650px) {
+@media (max-width: 650px) {
 
-   
+    header {
+        padding: 0px;
+    }
+
+    .navbar {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .navbar #hamburger {
+        display: block;
+        cursor: pointer;
+    }
+
+    menu#menu {
+        display: none;
+        padding: 0px;
+    }
+
+    .menu {
+        display: block;
+        flex-direction: column;
+        background-color: rgb(22, 30, 37);
+        text-align: center;
+    }
+
+    .menu .link {
+        width: 100vw;
+        padding: 20px;
+    }
+
+    .link:hover {
+        background-color: #892FF0;
+        transition: 0.4s ease;
+    }
+
     .interface {
         height: 300px;
     }
@@ -18,5 +53,9 @@
 
     .informacoes ul li {
         font-size: 0.9em;
+    }
+
+    .opcoes {
+        flex-flow: column wrap;
     }
 }
