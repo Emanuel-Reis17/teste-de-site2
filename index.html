@@ -7,13 +7,14 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
     <link rel="stylesheet" href="style/main.css">
     <link rel="stylesheet" href="style/responsive.css">
+    <link rel="shortcut icon" href="images/5-removebg-preview.png" type="image/x-icon">
     
     <title>Inicial</title>
 </head>
 <body>
     <header>
         <nav class="navbar">
-            <a href="#">Navbar</a>
+            <a href="#"><img src="images/5-removebg-preview.png" alt=""></a>
             <input type="text" name="pesquisa" id="pesquisa" placeholder="Pesquisar">
             <span id="hamburger" class="material-symbols-outlined">menu</span>
         </nav>
@@ -29,9 +30,11 @@
     </header>
     <main>        
         <section class="interface">
-            <div class="texto">
-                <h1>Planos de Internet</h1>
-                <p><span class="destaque">100% Fibra Óptica</span>  para toda a sua casa</p>
+            <div class="img">
+                <div class="texto">
+                    <h1>Planos de Internet</h1>
+                    <p><span class="destaque">100% Fibra Óptica</span>  para toda a sua casa</p>
+                </div>
             </div>
         </section>
         <section class="servicos">
@@ -41,7 +44,7 @@
                     <p class="fiber">FIBRA ÓPTICA</p>
                     <h1 class="megas">60MB</h1>
                     <p class="preco">R$59,90 <span class="vias">(Via boleto & cartão)</span></p>
-                    <p class="comprar" onclick="compra()">Comprar</p>
+                    <p class="comprar" onclick="chamada()">Comprar</p>
                     <div class="beneficios">
                         <p><span class="material-symbols-outlined"> Done</span>  Instalação Gratuita</p><hr>
                         <p><span class="material-symbols-outlined">wifi</span>  Wi-fi 2.4G e 5G</p><hr>
@@ -54,7 +57,7 @@
                     <p class="fiber">FIBRA ÓPTICA</p>
                     <h1 class="megas">80MB</h1>
                     <p class="preco">R$79,90 <span class="vias">(Via boleto & cartão)</span></p>
-                    <p class="comprar" onclick="compra()">Comprar</p>
+                    <p class="comprar" onclick="chamada()">Comprar</p>
                     <div class="beneficios">
                         <p><span class="material-symbols-outlined">Download_done</span>  Instalação Gratuita</p><hr>
                         <p><span class="material-symbols-outlined">wifi</span>  Wi-fi 2.4G e 5G</p><hr>
@@ -67,7 +70,7 @@
                     <p class="fiber">FIBRA ÓPTICA</p>
                     <h1 class="megas">120MB</h1>
                     <p class="preco">R$99,90 <span class="vias">(Via boleto & cartão)</span></p>
-                    <p class="comprar" onclick="compra()">Comprar</p>
+                    <p class="comprar" onclick="chamada()">Comprar</p>
                     <div class="beneficios">
                         <p><span class="material-symbols-outlined">Download_done</span>  Instalação Gratuita</p><hr>
                         <p><span class="material-symbols-outlined">wifi</span>  Wi-fi 2.4G e 5G</p><hr>
@@ -80,7 +83,7 @@
                     <p class="fiber">FIBRA ÓPTICA</p>
                     <h1 class="megas">300MB</h1>
                     <p class="preco">R$159,90 <span class="vias">(Via boleto & cartão)</span></p>
-                    <p class="comprar" onclick="compra()">Comprar</p>
+                    <p class="comprar" onclick="chamada()">Comprar</p>
                     <div class="beneficios">
                         <p><span class="material-symbols-outlined">Download_done</span>  Instalação Gratuita</p><hr>
                         <p><span class="material-symbols-outlined">wifi</span>  Wi-fi 2.4G e 5G</p><hr>
@@ -95,7 +98,7 @@
                     <p class="fiber">FIBRA ÓPTICA</p>
                     <h1 class="megas">600MB+</h1>
                     <p class="preco">R$399,90 + <span class="vias">(Via boleto & cartão)</span></p>
-                    <p class="comprar" onclick="compra()">Comprar</p>
+                    <p class="comprar" onclick="chamada()">Comprar</p>
                     <div class="beneficios">
                         <p><span class="material-symbols-outlined">Done</span> 1º Mensalidade Gratuita</p><hr>
                         <p><span class="material-symbols-outlined">wifi</span>  Wi-fi 2.4G, 5G e Wi-fi 6</p><hr>
@@ -115,18 +118,24 @@
             </div>
         </section>
         <section class="opcoes">
-            <h2 class="titulo"></h2>
-            <div class="opcao">
-                <p class="opcaot" onclick="chamada()">Chamar no WhatsApp</p>
-            </div>
-            <div class="opcao">
-                <p class="opcaot" onclick="chamada()">2ª via de boleto</p>
-            </div>
-            <div class="opcao">
-                <p class="opcaot" onclick="chamada()">Baixar nosso App</p>
-            </div>
-            <div class="opcao">
-                <p class="opcaot" onclick="chamada()">SpeedTest</p>
+            <h2 class="titulo">Acessibilidade</h2>
+            <div class="container">
+                <div class="opcao">
+                    <img src="images/1-removebg-preview.png" alt="">
+                    <p class="opcaot" onclick="chamada()">Chamar no WhatsApp</p>
+                </div>
+                <div class="opcao">
+                    <img src="images/U-removebg-preview.png" alt="">
+                    <p class="opcaot" onclick="chamada()">2ª via de boleto</p>
+                </div>
+                <div class="opcao">
+                    <img src="images/2-removebg-preview.png" alt="">
+                    <p class="opcaot" onclick="chamada()">Baixar nosso App</p>
+                </div>
+                <div class="opcao">
+                    <img src="images/3-removebg-preview.png" alt="">
+                    <p class="opcaot" onclick="chamada()">SpeedTest</p>
+                </div>
             </div>
         </section>
         <section class="cadastro">
@@ -144,7 +153,7 @@
                     <label for="password">Senha: </label>
                     <input type="password" name="password" id="password" required autocomplete="current-password" placeholder="Senha" min="8">
                 </div>
-                <textarea name="comment" id="idcomment" cols="20" rows="10" placeholder="Deixe um comentário! (opcional)"></textarea>
+                <textarea name="comment" id="idcomment" cols="18" rows="10" placeholder="Deixe um comentário! (opcional)"></textarea>
                 <div class="button">
                     <input type="button" value="Cadastrar" onclick="validate()">
                     <input type="reset" value="Limpar">

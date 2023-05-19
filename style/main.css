@@ -31,7 +31,7 @@ html {
 }
 
 header {
-    background-image: linear-gradient(to right, var(--color1), var(--color3));
+    background-image: linear-gradient(to right, var(--color2), var(--color3));
     color: white;
     font-family: var(--font1);
     padding: 0px 100px;
@@ -91,19 +91,31 @@ menu .menu {
 
 .interface {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color00);
+    height: 500px;
+}
+
+.img {
+    display: flex;
+    /* justify-content: center; */
     align-items: center;
     background-image: url('../images/plano4.png');
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 500px;
+    width: 95%;
+    height: 87%;
+    border-radius: 15px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.637);
 }
 
-.interface > .texto {
+.interface > .img > .texto {
     color: white;
     font-family: var(--font1);
     font-size: 2em;
-    margin-left: 150px;
+    margin-left: 100px;
     line-height: 35px;
 }
 
@@ -130,7 +142,7 @@ menu .menu {
     flex-flow: row wrap;
 }
 
-.servicos .titulo {
+.titulo {
     color: var(--color4);
     font-family: var(--font1);
     padding: 10px 0px;
@@ -294,29 +306,47 @@ menu .menu {
 }
 
 .opcoes {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-flow: row wrap;
+    text-align: center;
     background-color: var(--color3);
     color: white;
     font-family: var(--font1);
     font-size: 0.8em;
-    height: 200px;
+    padding: 20px 0px;
 }
 
-.opcoes .opcao {
-    margin-right: 10px;
+.opcoes > .titulo {
+    color: white;
+    margin: 0px 0px 30px 0px;
+}
+
+.opcoes > .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    gap: 20px;
+}
+
+.opcao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px 0px;
+    background-color: var(--color00);
+    width: 200px;
+    height: 200px;
+    padding: 5px;
+    border-radius: 5px;
     cursor: pointer;
 }
 
 .opcoes .opcao:hover {
-    background-color: var(--color00);
-    color: var(--color5);
-    padding: 5px;
-    border-radius: 5px;
-    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.438);
-    transition-duration: 0.5s;
+    background-color: #000000;
+    outline: 2px solid white;
+    color: var(--color3);
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.562);
+    transition: 0.3s ease;
 }
 
 /*Section de cadastro*/

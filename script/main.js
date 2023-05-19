@@ -9,12 +9,8 @@ hamburger.addEventListener("click", function() {
     }
 })
 
-// Quando clicar nos planos
-function compra(){
-    alert('~[ALERTA] Compra Indisponível no momento, tente novamente  mais tarde.')
-}
 
-// Opções de serviços
+// Opções de serviços & planos
 function chamada(){
     alert('[ALERTA!] Fora de serviço no momento, por favor tente mais tarde')
 } 
